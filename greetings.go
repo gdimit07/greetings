@@ -20,6 +20,7 @@ func randomWelcomeMessage(name string) string {
 		"Hello %s, welcome!",
 		"Great to have you here, %s!",
 		"Nice to see you %s!",
+		"Hey %s, great to have you with us!",
 	}
 
 	return fmt.Sprintf(messages[rand.Intn(len(messages))], name)
